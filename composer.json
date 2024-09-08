@@ -1,5 +1,5 @@
 {
-    "name": "turahe/shop",
+    "name": "turahe/site-shop",
     "description": "",
     "authors": [
         {
@@ -7,6 +7,20 @@
             "email": "wachid@outlook.com"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/turahe/laravel-counters.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/turahe/laravel-likeable.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "turahe/laravel-counters": "dev-master",
+        "turahe/laravel-likeable": "dev-master"
+    },
     "extra": {
         "laravel": {
             "providers": [],
